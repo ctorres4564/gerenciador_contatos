@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador de Contato</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Gerenciador de Contato</h1>
+
+    <input type="text" id="searchContact" placeholder="Buscar contato...">
+
+    <section class="ListContainer column">
+      <div id="people" class="Contact_list"></div>
+    </section>
+
+    <form autocomplete="off" class="js-form column">
+      <div class="name">
+        <i class="far fa-user"></i>
+        <input type="text" id="fullName" placeholder="Digite seu nome">
+      </div>
+      <div class="email">
+        <i class="fas fa-at"></i>
+        <input type="email" id="myEmail" placeholder="Digite seu email">
+      </div>
+      <div class="number">
+        <i class="fas fa-phone"></i>
+        <input type="tel" id="myTel" placeholder="Digite o número">
+      </div>
+      <div class="img">
+        <label for="imgFile"><i class="far fa-image"></i> Selecionar imagem do dispositivo:</label>
+        <input type="file" id="imgFile" accept="image/*">
+      </div>
+      <div class="img">
+        <label for="imgurl"><i class="fas fa-globe"></i> Ou cole a URL da imagem:</label>
+        <input type="url" id="imgurl" placeholder="https://exemplo.com/imagem.jpg">
+      </div>
+      <button type="submit" class="submitbtn">Adicionar Contato</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
