@@ -86,9 +86,6 @@ Eles são carregados automaticamente ao abrir a página.
 
 ![Exemplo de uso](https://www.w3schools.com/howto/img_avatar.png)
 
----
 
-## 👨‍💻 Autor
-
-Desenvolvido com fins educativos por [Seu Nome Aqui].
+Desenvolvido com fins educativos por Claudio Torres.
 
